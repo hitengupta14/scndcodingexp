@@ -1,1 +1,27 @@
+body{
+	font-size:16px;
+	color:#fff;
+	background-color:#00FFFF;
+	font-family: sans-serif;
+}
+
+#header-nav {
+	background-color:solid grey;
+	border-radius: 0;
+	border: 0;
+
+}
+.navbar-brand {
+	padding-top:25px;
+}
+
+.navbar-brand h1{
+	font-color:tomato;
+	font-size:1.5em;
+	text-transform: uppercase;
+	font-weight:bold;
+	margin-top:0;
+	margin-bottom:0;
+}
+
 
