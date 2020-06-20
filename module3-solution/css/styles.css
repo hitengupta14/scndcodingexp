@@ -1,25 +1,146 @@
 body{
-	font-size:16px;
-	color:#fff;
-	background-color:#00FFFF;
+	font-size:20px;
+	color:black;
+	background-color:#FFC0CB;
 	font-family: sans-serif;
+	margin:0;
 }
-
-#header-nav {
-	background-color:solid gray;
+    #header-nav {
 	border-radius: 0;
-	border: 0;
-
+	border:5px solid black;
 }
 .navbar-brand {
 	padding-top:25px;
+	background-color: gray;
 }
-
 .navbar-brand h1{
-	font-color:tomato;
+	color: black;
 	font-size:1.5em;
 	text-transform: uppercase;
 	font-weight:bold;
 	margin-top:0;
 	margin-bottom:0;
+	text-decoration: none;
+}
+nav select {
+  display: none;
+  float:right;
+}
+
+@media (max-width: 768px) {
+  nav ul     { 
+  	display: none;
+  	 }
+  nav select {
+   display: inline-block;
+    }
+    nav option {
+    	width:100%;
+    }
+    .selected {
+    	width: 100%;
+    }
+}
+
+@media (min-width:768px) {
+	.yes {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+  .xs1, .xs2, .xs3, .xs4, .xs5, .xs6, .xs7, .xs8, .xs9, .xs10, .xs11, .xs12 {
+    float: left;
+    }
+  .xs1 {
+    width: 8.33%;
+  }
+  .xs2 {
+    width: 16.66%;
+  }
+  .xs3 {
+    width: 25%;
+  }
+  .xs4 {
+    width: 33.33%;
+  }
+  .xs-5 {
+    width: 41.66%;
+  }
+  .xs6 {
+    width: 50%;
+  }
+  .xs7 {
+    width: 58.33%;
+  }
+  .xs8 {
+    width: 66.66%;
+  }
+  .xs9 {
+    width: 74.99%;
+  }
+  .xs10 {
+    width: 83.33%;
+  }
+  .xs11 {
+    width: 91.66%;
+  }
+  .xs12 {
+    width: 100%;
+  }
+}
+
+.dropdown {
+	align-content: right;
+}
+
+#nav-list {
+	margin-top:10px;
+}
+#nav-list a{
+	text-align: center;
+}
+ 
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ 	border:1px solid #61122f;
+ }
+
+ .navbar-header button.navbar-toggle {
+ 	clear:both;
+ }
+
+.text-center {
+	text-align: center;
+	color:black;
+	font-weight: bold;
+}
+
+#hello{
+	border:solid black;
+	background-color:#FFC0CB;
+	height:800px;
+	width:100%
+	float:left;
+}
+ h3 {
+ 	color:black;
+ }
+p{
+	height:90%;
+	width:90%;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	overflow:auto;
+}
+#p1 { 
+	background-color:#F08080;
+}
+
+#p2 {
+	background-color:#9370DB;
+}
+
+#p3 {
+	background-color:#FF69B4;
 }
