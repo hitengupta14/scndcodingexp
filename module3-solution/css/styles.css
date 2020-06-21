@@ -48,48 +48,6 @@ nav select {
 	}
 }
 
-@media (max-width: 768px) {
-  .xs1, .xs2, .xs3, .xs4, .xs5, .xs6, .xs7, .xs8, .xs9, .xs10, .xs11, .xs12 {
-    float: left;
-    }
-  .xs1 {
-    width: 8.33%;
-  }
-  .xs2 {
-    width: 16.66%;
-  }
-  .xs3 {
-    width: 25%;
-  }
-  .xs4 {
-    width: 33.33%;
-  }
-  .xs-5 {
-    width: 41.66%;
-  }
-  .xs6 {
-    width: 50%;
-  }
-  .xs7 {
-    width: 58.33%;
-  }
-  .xs8 {
-    width: 66.66%;
-  }
-  .xs9 {
-    width: 74.99%;
-  }
-  .xs10 {
-    width: 83.33%;
-  }
-  .xs11 {
-    width: 91.66%;
-  }
-  .xs12 {
-    width: 100%;
-  }
-}
-
 .dropdown {
 	align-content: right;
 }
