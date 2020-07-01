@@ -22,11 +22,43 @@ body{
 	margin-bottom:0;
 	text-decoration: none;
 }
+.navbar-toggle{
+position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button,select {
+	text-transform:none;
+}
+button{
+	overflow: visible;
+}
 nav select {
   display: none;
   float:right;
 }
-
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
 @media (max-width: 768px) {
   nav ul     { 
   	display: none;
@@ -48,25 +80,39 @@ nav select {
 	}
 }
 
-.dropdown {
-	align-content: right;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
 }
-
 #nav-list {
-	margin-top:10px;
+    vertical-align: top;
 }
-#nav-list a{
-	text-align: center;
+#nav-list a {
+    color: black;
+    text-align: center;
+    background-color:antiquewhite;
 }
- 
- .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
- 	border:1px solid #61122f;
- }
-
- .navbar-header button.navbar-toggle {
- 	clear:both;
- }
-
+#nav-list a:hover {
+    background: lightskyblue ;
+}
+#nav-list a {
+    font-size: 15px;
+    font-weight: bold;
+}
+#chicken {
+    background-color: rgb(243, 180, 62);
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+#beef {
+    background-color: rgb(228, 151, 164);
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+#sushi {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
 .text-center {
 	text-align: center;
 	color:black;
@@ -101,4 +147,7 @@ p{
 
 #p3 {
 	background-color:#FF69B4;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin: 0px;
 }
