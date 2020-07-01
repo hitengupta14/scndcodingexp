@@ -123,14 +123,20 @@ display: none;
 }
 
 #hello{
+	margin-top: 25px;
 	border:solid black;
 	background-color:#FFC0CB;
 	height:800px;
 	width:100%
 	float:left;
 }
+h1{
+	padding-top: 20px;
+}
  h2 {
  	color:black;
+ 	padding-bottom: 10px;
+ 	padding-top: 10px;
  }
 p{
 	height:90%;
