@@ -11,7 +11,6 @@ body{
 }
 .navbar-brand {
 	padding-top:25px;
-	background-color: gray;
 }
 .navbar-brand h1{
 	color: black;
@@ -34,6 +33,7 @@ position: relative;
     border: 1px solid transparent;
     border-radius: 4px;
 }
+
 button, input, select, textarea {
     font-family: inherit;
     font-size: inherit;
@@ -49,6 +49,7 @@ nav select {
   display: none;
   float:right;
 }
+
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -75,9 +76,10 @@ nav select {
 }
 
 @media (min-width:768px) {
-	.yes {
-		display: none;
+	button.navbar-toggle{
+display: none;
 	}
+	
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -90,6 +92,7 @@ nav select {
     color: black;
     text-align: center;
     background-color:antiquewhite;
+    width:100%;
 }
 #nav-list a:hover {
     background: lightskyblue ;
@@ -126,7 +129,7 @@ nav select {
 	width:100%
 	float:left;
 }
- h3 {
+ h2 {
  	color:black;
  }
 p{
