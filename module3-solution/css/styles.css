@@ -103,19 +103,25 @@ display: none;
     font-weight: bold;
 }
 #chicken {
-    background-color: rgb(243, 180, 62);
+    background-color:#FFC0CB;
     border: 1px solid black;
     margin-bottom: 15px;
+     height: 1000px;
+    width:100%;
 }
 #beef {
-    background-color: rgb(228, 151, 164);
+    background-color:#FFC0CB;
     border: 1px solid black;
     margin-bottom: 15px;
+     height: 1000px;
+    width:100%;
 }
 #sushi {
-    background-color: antiquewhite;
+   background-color:#FFC0CB;
     border: 1px solid black;
     margin-bottom: 15px;
+    height: 1000px;
+    width:100%;
 }
 .text-center {
 	text-align: center;
@@ -123,14 +129,7 @@ display: none;
 	font-weight: bold;
 }
 
-#hello{
-	margin-top: 25px;
-	border:solid black;
-	background-color:#FFC0CB;
-	height:800px;
-	width:100%
-	float:left;
-}
+
 h1{
 	padding-top: 20px;
 }
